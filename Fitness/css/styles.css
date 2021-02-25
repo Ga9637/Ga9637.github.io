@@ -20,11 +20,16 @@ img {
     max-width: 100%;
     display: block;
 }
+/* Style rules for mobile viewport */
+
 
 /* style rules for header */
 header {
-    width: 25%;
-    float: left;
+    position: ~webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
 }
 
 /* style rules for navigation area */
@@ -48,7 +53,7 @@ nav li {
 }
 
 nav li a {
-    display:block;
+    display:block; 
     color: #fff;
     text-align: center;
     padding: 0.5em 1em;
